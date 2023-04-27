@@ -7,13 +7,13 @@ import 'firebase/compat/auth';
 import 'firebase/compat/firestore';
 
 firebase.initializeApp({
-  apiKey: "自分のAPIKEY",
-  authDomain: "test0405-fcec1.firebaseapp.com",
-  projectId: "test0405-fcec1",
-  storageBucket: "test0405-fcec1.appspot.com",
-  messagingSenderId: "926870627979",
-  appId: "1:926870627979:web:9768da708755eb3a6fd68e",
-  measurementId: "G-47X2X9WV5M"
+    apiKey: "AIzaSyDR5RHtYnqrVFczxk5JgDP3R6zD5SJVLvU",
+    authDomain: "gomoku-ad695.firebaseapp.com",
+    projectId: "gomoku-ad695",
+    storageBucket: "gomoku-ad695.appspot.com",
+    messagingSenderId: "1094967554954",
+    appId: "1:1094967554954:web:1274f002a045de64360e73",
+    measurementId: "G-TK62D1JYM2"
 });
 
 const roomNumber = sessionStorage.getItem('input_number');
