@@ -5,14 +5,15 @@ import reportWebVitals from './reportWebVitals';
 // 'firebase' パッケージからFirebaseアプリモジュールをインポート
 import firebase from 'firebase/compat/app';
 
-// Firebaseを初期化
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: 'YOUR_API_KEY',
-  authDomain: 'YOUR_AUTH_DOMAIN',
-  projectId: 'YOUR_PROJECT_ID',
-  storageBucket: 'YOUR_STORAGE_BUCKET',
-  messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
-  appId: 'YOUR_APP_ID',
+  apiKey: "AIzaSyDR5RHtYnqrVFczxk5JgDP3R6zD5SJVLvU",
+  authDomain: "gomoku-ad695.firebaseapp.com",
+  projectId: "gomoku-ad695",
+  storageBucket: "gomoku-ad695.appspot.com",
+  messagingSenderId: "1094967554954",
+  appId: "1:1094967554954:web:1274f002a045de64360e73",
+  measurementId: "G-TK62D1JYM2"
 };
 
 const app = firebase.initializeApp(firebaseConfig);
